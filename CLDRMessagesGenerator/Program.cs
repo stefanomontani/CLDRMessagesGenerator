@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CLDRMessagesGenerator
+namespace Com.AzureSeed.CLDRMessagesGenerator
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace CLDRMessagesGenerator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new UI.StartForm());
         }
     }
 }
